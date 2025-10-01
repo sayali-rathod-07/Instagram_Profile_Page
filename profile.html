@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <style>
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: black;
+    font-family: Arial, sans-serif;
+    }
+    .card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba (0,0,0,0.15);
+    text-align: center;
+    }
+    .card img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+    .card h2 {
+        margin: 10px 0 5px;
+        font-size: 20px;
+        color: black;
+    }
+    .card p {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 15px;
+    }
+    .card button {
+        background: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background 0.3s;
+    }
+    .card button:hover {
+        background: grey;
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="card">
+        <img src="Sayali.jpg" alt="Profile">
+        <h2> Sayali Rathod</h2>
+        <p>Frontend developer , Coffee , CSS, <br> Learner, Enthusiast</p>
+        <button>Follow</button>
+
+    </div>
+</body>
+</html>
